@@ -1,0 +1,25 @@
+# Python & Jupyter environment tracking blocks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Block huge astronomical data by default
+*.fits
+*.fit
+*.fts
+*.dat
+
+# --- EXCEPTIONS ---
+# Explicitly allow any FITS file that lives right here in HW1
+!*.fits
+!*.fit
+
+# LaTeX compilation outputs
+*.aux
+*.log
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
